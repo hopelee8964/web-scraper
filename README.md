@@ -1,4 +1,5 @@
 # web-scraper
+ HEAD
 
 A simple Python-based web scraping toolkit.
 
@@ -31,3 +32,6 @@ python setup.py sdist
 ---
 
 作者：hopelee8964
+
+A Python-based web scraping toolkit
+>>>>>>> 3dbe0b63a3784a2d4f729b53261694c61c9dc257
