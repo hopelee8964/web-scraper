@@ -1,37 +1,46 @@
 # web-scraper
- HEAD
 
 A simple Python-based web scraping toolkit.
 
-## 功能简介
-- 输入网址，获取网页标题。
-- 未来可扩展更多网页抓取功能。
+## Features
+- Input a URL to get the web page title.
+- Batch scrape multiple URLs and save results to a file.
+- Designed for easy extension to more advanced scraping features in the future.
 
-## 安装依赖
+## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用方法
+## Usage
 
+**Default test (no arguments):**
 ```bash
 python scraper.py
 ```
 
-## 发行版打包
+**Scrape a single URL:**
+```bash
+python scraper.py https://www.example.com
+```
+
+**Batch scrape multiple URLs and save results:**
+```bash
+python scraper.py https://www.example.com https://www.python.org https://www.github.com
+```
+The results will be saved to `titles.txt`.
+
+## Packaging for Release
 
 ```bash
 python setup.py sdist
 ```
 
-## 贡献与升级
-- 欢迎提交 issue 和 pull request。
-- 可持续扩展更多抓取和解析功能。
+## Contributing & Upgrading
+- Contributions (issues and pull requests) are welcome.
+- The project is actively maintained and open for new scraping and parsing features.
 
 ---
 
-作者：hopelee8964
-
-A Python-based web scraping toolkit
->>>>>>> 3dbe0b63a3784a2d4f729b53261694c61c9dc257
+Author: hopelee8964
